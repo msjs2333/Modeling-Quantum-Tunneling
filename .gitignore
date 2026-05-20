@@ -1,0 +1,22 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Generated animation output
+output/
+
+# Saved reference webpage and browser assets
+Modeling Quantum Tunneling With Python _ by Rhett Allain _ Medium.html
+Modeling Quantum Tunneling With Python _ by Rhett Allain _ Medium_files/
+
+# Local editor and OS noise
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
