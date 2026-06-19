@@ -64,6 +64,6 @@ python contributors/zhb-二维方势/quantum_tunneling_2d.py
 默认输出写入：
 
 ```text
-contributors/zhb-二维方势/1/tunneling_2d.mp4
-contributors/zhb-二维方势/1/tunneling_2d_3d.mp4
+output/tunneling_2d.mp4
+output/tunneling_2d_3d.mp4
 ```
