@@ -9,9 +9,12 @@
 ├── README.md
 ├── requirements.txt
 ├── contributors/
-│   └── chx-基座/
+│   ├── chx-基座/
+│   │   ├── README.md
+│   │   └── quantum_tunneling_3d.py
+│   └── zhb-二维方势/
 │       ├── README.md
-│       └── quantum_tunneling_3d.py
+│       └── quantum_tunneling_2d.py
 └── ppt/
     └── README.md
 ```
@@ -21,13 +24,14 @@
 | 成员 | 内容 | 目录 | 说明 |
 | --- | --- | --- | --- |
 | chx | 基座 | `contributors/chx-基座/` | 量子隧穿模拟基座代码 |
-| 待填写 | 待填写 | `contributors/待填写-待填写/` | 待填写 |
+| zhb | 二维方势 | `contributors/zhb-二维方势/` | 量子隧穿模拟二维方势代码 |
 | 待填写 | 待填写 | `contributors/待填写-待填写/` | 待填写 |
 
 ## Directory Rules
 
 - `contributors/`：存放团队成员贡献内容，每个子目录使用“成员名-内容”命名。
 - `contributors/chx-基座/`：chx 的基座代码与对应自述。
+- `contributors/zhb-二维方势`: zhb 的二维方势代码与对应自述。
 - `ppt/`：后续放置展示、汇报或答辩用 PPT 文件。
 - `requirements.txt`：项目级 Python 依赖。
 
@@ -49,4 +53,17 @@ python contributors/chx-基座/quantum_tunneling_3d.py
 
 ```text
 output/tunneling_3d.mp4
+```
+
+运行 zhb 的二维方势代码：
+
+```powershell
+python contributors/zhb-二维方势/quantum_tunneling_2d.py
+```
+
+默认输出写入：
+
+```text
+output/tunneling_2d.mp4
+output/tunneling_2d_3d.mp4
 ```
